@@ -38,7 +38,7 @@
     background-color: #555554;   
     box-shadow: 1px 0px 1px #000;
     color: #c2f9fe;
-
+    cursor: default;
 }
 
 .content {
