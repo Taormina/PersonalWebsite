@@ -16,9 +16,6 @@ function changeState($target, state, $active) {
     $("#" + state + "-content").addClass("displayed");
 }
 
-
-//window.onload = myImageSizing;
-
 $(document).ready(function () {
     myImageSizing();
     
@@ -31,14 +28,16 @@ $(document).ready(function () {
             changeState($("#" + state), state, $active);      
         });
     }
-    
+
     $(".menu-item").click(function(e) {
         var $target = $(e.target);
-        var href = $target.attr('id')
-        changeState($target, href);
-        
-        if (supports_history_api) {
-            history.pushState(href, null, href);
+        var id = $target.attr('id');
+        if (!supports_history_api) {
+            window.location = id;
+        } else {        
+            changeState($target, id);
+    
+            history.pushState(id, null, id);
             return event.preventDefault();
         }
         /*

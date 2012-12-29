@@ -15,4 +15,3 @@ for page in pages:
 	f = open(page, "w")
 	f.write(temp)
 	f.close()
-
