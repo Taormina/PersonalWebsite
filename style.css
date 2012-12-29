@@ -1,3 +1,11 @@
+a {
+    color: #292929;
+}
+
+a.icon {
+    text-decoration: none;
+}
+
 .menu {
     position: absolute;
     top: 0;
@@ -64,14 +72,6 @@
     text-align: justified;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.25em;
-}
-
-a {
-    color: #292929;
-}
-
-a.icon {
-    text-decoration: none;
 }
 
 .bold {
