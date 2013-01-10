@@ -57,7 +57,7 @@ a.icon {
     bottom: 0;
     background-color: #c2f9fe;
     display: none;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .text {
