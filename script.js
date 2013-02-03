@@ -24,7 +24,7 @@ $(document).ready(function () {
     if (supports_history_api) {
         window.addEventListener('popstate', function(e) {
             var $active = $(".menu-item.active");
-            var state = (e.state != null) ? e.state : $active.attr('id');
+            var state = (e.state != null) ? e.state : "about";
             changeState($("#" + state), state, $active);      
         });
     }
