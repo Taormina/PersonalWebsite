@@ -14,7 +14,7 @@
             <div class="my-name">Anthony Taormina</div>
             <img class="my-image" src="graduation-picture.jpg">
             <div class="menu-item" id="about">About</div>
-            <div class="menu-item" id="resume">Résumé</div>
+            <div class="menu-item active" id="resume">Résumé</div>
             <div class="menu-item" id="contact">Contact Me</div>
         </div>
         <div class="content text" id="about-content">
@@ -39,7 +39,7 @@
             Go check it out on the 
             <a class="bold" href="https://play.google.com/store/apps/details?id=com.whaleshark.retailmenot&hl=en">Play Store.</a>
         </div>
-        <div class="content" id="resume-content">
+        <div class="content displayed" id="resume-content">
             <iframe src="AMTaormina Resume 12.2012.pdf"></iframe>
         </div>
         <div class="content text" id="contact-content">

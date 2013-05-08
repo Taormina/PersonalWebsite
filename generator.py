@@ -1,6 +1,6 @@
 import sys
 
-pages = ["about", "github", "resume", "contact"]
+pages = ["about", "resume", "contact"]
 
 f = open("index.html", "r")
 html = f.read()

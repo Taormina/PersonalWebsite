@@ -13,11 +13,11 @@
         <div class="menu">
             <div class="my-name">Anthony Taormina</div>
             <img class="my-image" src="graduation-picture.jpg">
-            <div class="menu-item" id="about">About</div>
+            <div class="menu-item active" id="about">About</div>
             <div class="menu-item" id="resume">Résumé</div>
             <div class="menu-item" id="contact">Contact Me</div>
         </div>
-        <div class="content text" id="about-content">
+        <div class="content text displayed" id="about-content">
             I am a senior at Georgia Tech pursuing a B.S. in Computer Science with the Platform and Information Internetworking threads.
             I plan on graduating in December of 2013, and I will be returning to RetailMeNot as an Associate Software Engineer after graduation.
             I hope to work with like-minded individuals who can work together as a team and teach each other as we face new challenges.
