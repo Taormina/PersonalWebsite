@@ -113,18 +113,18 @@ PHP, MySQL, C++, Javascript, HTML, CSS, Assembly (LC-3), iOS
 </div>
 	<div class="content span9 displayed" id="contact-content">
             <address>
-                <h4>Email:</h4><br>
-                <a href="mailto:anthony.m.taormina@gmail.com">anthony.m.taormina@gmail.com</a><br>
-                <a href="mailto:ataormina3@gatech.edu">ataormina3@gatech.edu</a><br>
+                <h3>Email</h3>
+                Personal - <a href="mailto:anthony.m.taormina@gmail.com">anthony.m.taormina@gmail.com</a><br>
+                School - <a href="mailto:ataormina3@gatech.edu">ataormina3@gatech.edu</a><br>
             	<br>
 			</address>		
             <address>
-            	<h4>Phone Number:</h4><br>
+            	<h3>Phone Number</h3>
                 (803) 417-3032
             	<br><br>
 			</address>
             <address>
-                <h4>Social Media:</h4><br>
+                <h3>Social Media</h3>
             <a class="icon" href="https://www.facebook.com/ancientmariner4">
                 <img src="f_logo.png" alt="Facebook" height="60px" width="60px">
             </a>

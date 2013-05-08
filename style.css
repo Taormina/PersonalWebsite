@@ -1,6 +1,7 @@
-.navbar .brand { text-decoration: none; }
+.navbar .brand { padding-left: 30px; text-decoration: none; }
 div.content { display: none; }
 div.content.displayed { display: block; }
-h4 { padding-right: 20px; padding-top: 5px; padding-bottom: 5px; display: inline; }
-h5 { display: inline; }
+h4 { padding-top: 5px; padding-bottom: 5px; display: inline; }
+h5 { font-style: italic; }
+.icon { text-decoration: none; }
 body { background: #ECF0F1;font-size: 16px; text-align:justify; }
