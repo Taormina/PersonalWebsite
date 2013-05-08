@@ -55,14 +55,14 @@
 <ul><li>B.S. Computer Science (Expected Graduation: Fall 2013)</li>
 <li>Information Internetworking and Platform Threads</li>
 <li>Dean’s List – Spring 2011 – Present</li>
-<li>Major GPA – 3.42, Overall GPA – 3.23</li>
+<li>Major GPA – 3.50, Overall GPA – 3.30</li>
 </ul>
 <h2>Work Experience</h2>
 <h4>WhaleShark Media</h4>
 <h5>Summer ‘12</h5>
 <ul><li>Full-Time Internship</li>
 <li>Penetration Testing, Web Development, and Android Development</li>
-<ul><li>The Android application currently has 500,000-1,000,000 downloads.</li>
+<ul><li>The Android application currently has 1,000,000-5,000,000 downloads.</li>
 <li><a href="http://goo.gl/hMnnK">http://goo.gl/hMnnK</a></li></ul></li></ul>
 <h4>Teaching Assistant</h4>
 <h5>Fall ‘11</h5>
@@ -80,8 +80,10 @@
 <h5>2006 – 2010</h5>
 
 <h2>Computer Language Skills</h2>
-<h4>Proficient Skills</h4><ul><li>C, Python, MySQL, Java, Android, PHP</li></ul>
-<h4>Familiar Skills</h4><ul><li>Assembly (LC-3), MATLAB, Javascript, HTML, CSS, Django</li></ul>
+<h4>Proficient Skills</h4><ul><li>C, Python, Java, Android</li></ul>
+<h4>Familiar Skills</h4><ul><li>
+PHP, MySQL, C++, Javascript, HTML, CSS, Assembly (LC-3), iOS
+</li></ul>
 <h2>Extracurricular Activities</h2>
 <h4>Mobile Application Developers (GIT MAD)</h4>
 <h5>Fall ’12 – Present</h5><br>
@@ -94,17 +96,17 @@
 <ul><li>Collected and donated 2,300 children’s books</li></ul>
 
 <h2>Significant Coding Projects</h2>
-<h4>EBay Image Search</h4>
-<h5>Jan 22, 2012</h5>
-<ul><li>Won 2nd place with a Google Chrome extension for the X.commerce Hackathon.</li></ul> 
-<h4>Mordor Trail</h4>
-<h5>Fall ‘11</h5>
-<ul><li>Created a web-based version of the game Oregon Trail using Django.</li></ul>
-<h4>GTBay</h4>
-<h5>Spring ‘11</h5>
-<ul><li>Created an EBay style auction site using Java with a MySQL backend.</li></ul>
+<h4>NCR Voice Library</h4>
+<h5>Spring '13</h5>
+<ul><li>Helped create an abstraction library for Android's Voice Recognition API.</li></ul> 
+<h4>Android Packet Sniffer</h4>
+<h5>Spring '13</h5>
+<ul><li>Helped create a kernel level packet sniffer for rooted Nexus 7 devices.</li></ul>
+<h4>NumNoms</h4>
+<h5>Spring '13</h5>
+<ul><li>Helped create an iPad game designed to teach children to count.</li></ul>
 	</div><div class="span5">
-		<a class="btn btn-primary btn-large btn-block" href="AMTaormina Resume 12.2012.pdf">Download My Resume</a>
+		<a class="btn btn-primary btn-large btn-block" href="AMTaormina Resume 5.2013.pdf">Download My Resume</a>
 	</div>
 </div>
 	<div class="content span9 displayed" id="contact-content">
