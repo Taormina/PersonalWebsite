@@ -46,11 +46,61 @@
             As half of a two-person team, I helped create an Android app that currently has between 1,000,000 and 5,000,000 downloads.
             Go check it out on the 
             <a class="bold" href="https://play.google.com/store/apps/details?id=com.whaleshark.retailmenot&hl=en">Play Store.</a>
-        </div>
-        <div class="content" id="resume-content">
-            <iframe src="AMTaormina Resume 12.2012.pdf"></iframe>
-        </div>
-        <div class="content displayed" id="contact-content">
+    	</div>
+        <div class="content span9" id="resume-content">
+<a class="btn btn-primary btn-large btn-block" href="AMTaormina Resume 12.2012.pdf">Download My Resume</a>
+<h2>Education</h2>
+<h4>Georgia Institute of Technology</h4>
+<h5>Fall ‘10 - Present</h5>
+<ul><li>B.S. Computer Science (Expected Graduation: Fall 2013)</li>
+<li>Information Internetworking and Platform Threads</li>
+<li>Dean’s List – Spring 2011 – Present</li>
+<li>Major GPA – 3.42, Overall GPA – 3.23</li>
+</ul>
+<h2>Work Experience</h2>
+<h4>WhaleShark Media</h4>
+<h5>Summer ‘12</h5>
+<ul><li>Full-Time Internship</li>
+<li>Penetration Testing, Web Development, and Android Development</li>
+<ul><li>The Android application currently has 500,000-1,000,000 downloads.</li>
+<li><a href="http://goo.gl/hMnnK">http://goo.gl/hMnnK</a></li></ul></li></ul>
+<h4>Teaching Assistant</h4>
+<h5>Fall ‘11</h5>
+<ul><li>CS 1301 – Introduction to Computer Science</li>
+<li>Taught a recitation of 50 students weekly, graded homeworks and exams, wrote a homework assignment, proctored exams, and occasionally taught the main lecture.</li></ul>
+<h4>Tri Global Inc.</h4>
+<h5>Summer ‘11</h5>
+<ul><li>Full-Time Internship</li>
+<li>Database Management and Web Development, working both on the web based front end and on the Java/MySQL based backend.</li></ul>
+<h4>Insignia Group</h4>
+<h5>Summer '10</h5>
+<ul><li>Full-Time Internship</li>
+<li>Database Management working on a SQL script to allow us to work with new vendors.</li></ul>
+<h4>Multiple Community Service Projects—over 300 hours (2006 – 2010)</h4>
+
+<h2>Computer Language Skills</h2>
+<h4>Proficient Skills</h4><ul><li>C, Python, MySQL, Java, Android, PHP</li></ul>
+<h4>Familiar Skills</h4><ul><li>Assembly (LC-3), MATLAB, Javascript, HTML, CSS, Django</li></ul>
+<h2>Extracurricular Activities</h2>
+<h4>Mobile Application Developers (GIT MAD)</h4>
+<h5>Fall ’12 – Present</h5><br>
+<h4>Grey Hat InfoSec Collaboration</h4>
+<h5>Fall ‘11 – Present</h5><br>
+<h4>Student Activities Board at the College of Computing (SAB@CC)</h4>
+<h5>Spring ‘11 – Present</h5><br>
+<h4>Eagle Scout</h4>
+<h5>August 4, 2008</h5>
+<ul><li>Collected and donated 2,300 children’s books</li></ul>
+
+<h2>Significant Coding Projects</h2>
+<h4>EBay Image Search (Jan 22, 2012)</h4>
+<ul><li>Won 2nd place with a Google Chrome extension for the X.commerce Hackathon.</li></ul> 
+<h4>Mordor Trail (Fall ‘11)</h4>
+<ul><li>Created a web-based version of the game Oregon Trail using Django.</li></ul>
+<h4>GTBay (Spring ‘11)</h4>
+<ul><li>Created an EBay style auction site using Java with a MySQL backend.</li></ul>
+</div>
+	<div class="content span9 displayed" id="contact-content">
             <address>
                 <strong>Email:</strong><br>
                 <a href="mailto:anthony.m.taormina@gmail.com">anthony.m.taormina@gmail.com</a><br>
