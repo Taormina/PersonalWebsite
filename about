@@ -5,26 +5,34 @@
         <meta name="author" content="Anthony Taormina">
         <meta name="description" content="A personal website belonging to Anthony Taormina.">
         <title>Anthony Taormina</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/flat-ui.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <div class="menu">
-            <div class="my-name">Anthony Taormina</div>
-            <img class="my-image" src="graduation-picture.jpg">
-            <div class="menu-item active" id="about">About</div>
-            <div class="menu-item" id="resume">Résumé</div>
-            <div class="menu-item" id="contact">Contact Me</div>
-        </div>
-        <div class="content text displayed" id="about-content">
+	<div class="navbar">
+            <div class="navbar-inner">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+              <div class="container">
+            	<a class="brand" href="">Anthony Taormina</a>
+                  <ul class="nav">
+                    <li class="active" id="about"><a href="about">About</a></li>
+		    <li id="resume"><a href="resume">Résumé</a></li>
+		    <li id="contact"><a href="contact">Contact Me</a></li>
+                  </ul>
+</div></div></div>	
+        <div class="content span9 displayed" id="about-content">
             I am a senior at Georgia Tech pursuing a B.S. in Computer Science with the Platform and Information Internetworking threads.
-            I plan on graduating in December of 2013, and I will be returning to RetailMeNot as an Associate Software Engineer after graduation.
+            I plan on graduating in December of 2013, and I will be returning to RetailMeNot in Austin, Texas as an Associate Software Engineer after graduation.
             I hope to work with like-minded individuals who can work together as a team and teach each other as we face new challenges.
             My ideal work environment consists of a company that can provide me with a enjoyable and open workplace,
                 coworkers who share my passion for creating things,
                 and opportunities to work on projects that people will use, enjoy, and benefit from.
-            <br /><br />
+            <br><br>
             Subsets of software engineering that I am interested in include, but are not limited to:
                 <ul>    
                     <li>Mobile Development</li>
@@ -33,7 +41,7 @@
                     <li>Penetrating Testing</li>
                     <li>Operating System Development</li>
                 </ul>
-            <br />
+            <br>
             My biggest accomplishment to date was my work with RetailMeNot (formerly know as WhaleShark Media) on their RetailMeNot Android app.
             As half of a two-person team, I helped create an Android app that currently has between 1,000,000 and 5,000,000 downloads.
             Go check it out on the 
@@ -42,21 +50,20 @@
         <div class="content" id="resume-content">
             <iframe src="AMTaormina Resume 12.2012.pdf"></iframe>
         </div>
-        <div class="content text" id="contact-content">
-            <div class="bold">
-                Email:<br />
-            </div>
-                <a href="mailto:anthony.m.taormina@gmail.com">anthony.m.taormina@gmail.com</a><br />
-                <a href="mailto:ataormina3@gatech.edu">ataormina3@gatech.edu</a><br />
-            <br />
-            <div class="bold">
-                Phone Number:
-            </div>
+        <div class="content" id="contact-content">
+            <address>
+                <strong>Email:</strong><br>
+                <a href="mailto:anthony.m.taormina@gmail.com">anthony.m.taormina@gmail.com</a><br>
+                <a href="mailto:ataormina3@gatech.edu">ataormina3@gatech.edu</a><br>
+            	<br>
+			</address>		
+            <address>
+            	<strong>Phone Number:</strong><br>
                 (803) 417-3032
-            <br /><br />
-            <div class="bold">
-                Social Media:
-            </div>
+            	<br><br>
+			</address>
+            <address>
+                <strong>Social Media:</strong><br>
             <a class="icon" href="https://www.facebook.com/ancientmariner4">
                 <img src="f_logo.png" alt="Facebook" height="60px" width="60px">
             </a>
@@ -69,10 +76,20 @@
             <a class="icon" href="https://www.github.com/Taormina" rel="publisher">
                 <img src="GitHub-Mark-64px.png" alt="GitHub" height="60px" width="60px">
             </a>
+			</address>
         </div>
         
-        <script src="jquery-1.8.3.min.js"></script>
-        <script src="script.js"></script>
+        
+      <script src="script.js"></script>
+<script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="js/jquery.dropkick-1.0.0.js"></script>
+    <script src="js/custom_checkbox_and_radio.js"></script>
+    <script src="js/custom_radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <script src="js/application.js"></script>        
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];

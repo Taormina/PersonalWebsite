@@ -1,13 +1,8 @@
 var supports_history_api = !!(window.history && history.pushState);
 
-function myImageSizing() {
-    var $img = $(".my-image"); 
-    $img.height($img.width());  
-}
-
 function changeState($target, state, $active) {
     if(typeof $active == "undefined") {
-        $active = $(".menu-item.active");   
+        $active = $(".active");   
     }
     
     $active.removeClass("active");
@@ -17,19 +12,15 @@ function changeState($target, state, $active) {
 }
 
 $(document).ready(function () {
-    myImageSizing();
-    
-    $(window).resize(function () {myImageSizing()});
-    
     if (supports_history_api) {
         window.addEventListener('popstate', function(e) {
-            var $active = $(".menu-item.active");
+            var $active = $(".active");
             var state = (e.state != null) ? e.state : "about";
             changeState($("#" + state), state, $active);      
         });
     }
 
-    $(".menu-item").click(function(e) {
+    $(".navbar-inner").click(function(e) {
         var $target = $(e.target);
         var id = $target.attr('id');
         if (!supports_history_api) {
