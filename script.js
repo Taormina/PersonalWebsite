@@ -20,14 +20,14 @@ $(document).ready(function () {
         });
     }
 
-    $(".navbar-inner").click(function(e) {
+    $(".nav-item").click(function(e) { 
         var $target = $(e.target);
         var id = $target.attr('id');
         if (!supports_history_api) {
             window.location = id;
         } else {        
             changeState($target, id);
-    
+    console.log(supports_history_api);
             history.pushState(id, null, id);
             return event.preventDefault();
         }

@@ -12,18 +12,18 @@
     <body>
 	<div class="navbar navbar-inverse">
             <div class="navbar-inner">
-<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
               <div class="container">
-            	<a class="brand" href="/">Anthony Taormina</a>
-                  <ul class="nav">
-                    <li id="about"><a href="about">About</a></li>
-		    <li id="resume"><a href="resume">Résumé</a></li>
-		    <li class="active" id="contact"><a href="contact">Contact Me</a></li>
-                  </ul>
+                <a class="brand" href="/">Anthony Taormina</a>
+              <ul class="nav">
+                <li id="about" class="nav-item"><a>About</a></li>
+                <li id="resume" class="nav-item"><a>Résumé</a></li>
+                <li class="active" id="contact" class="nav-item"><a>Contact Me</a></li>
+              </ul>
 </div></div></div>	
         <div class="content" id="about-content">
 <div class="span4"><img class="img-circle" src="graduation-picture.jpg" alt="My Picture"/></div>
@@ -140,9 +140,8 @@ PHP, MySQL, C++, Javascript, HTML, CSS, Assembly (LC-3), iOS
 			</address>
         </div>
         
-        
-      <script src="script.js"></script>
-<script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="jquery-2.0.0.min.js"></script>
+    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
     <script src="js/jquery.dropkick-1.0.0.js"></script>
     <script src="js/custom_checkbox_and_radio.js"></script>
     <script src="js/custom_radio.js"></script>
@@ -151,6 +150,8 @@ PHP, MySQL, C++, Javascript, HTML, CSS, Assembly (LC-3), iOS
     <script src="js/jquery.placeholder.js"></script>
     <script src="http://vjs.zencdn.net/c/video.js"></script>
     <script src="js/application.js"></script>        
+          <script src="script.js"></script>
+
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];
