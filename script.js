@@ -1,33 +1,27 @@
 var supports_history_api = !!(window.history && history.pushState);
 
-function changeState($target, state, $active) {
-    if(typeof $active == "undefined") {
-        $active = $(".active");   
-    }
+function changeState($state) {
     
-    $active.removeClass("active");
+    $(".active").removeClass("active");
     $(".content.displayed").removeClass("displayed");
-    $target.addClass("active");
-    $("#" + state + "-content").addClass("displayed");
+    $("#" + $state).addClass("active");
+    $("#" + $state + "-content").addClass("displayed");
 }
 
 $(document).ready(function () {
     if (supports_history_api) {
         window.addEventListener('popstate', function(e) {
-            var $active = $(".active");
             var state = (e.state != null) ? e.state : "about";
-            changeState($("#" + state), state, $active);      
+            changeState(state);      
         });
     }
 
-    $(".nav-item").click(function(e) { 
-        var $target = $(e.target);
-        var id = $target.attr('id');
+    $(".nav-item").click(function(e) {
+        var id = e.currentTarget.id;
         if (!supports_history_api) {
             window.location = id;
-        } else {        
-            changeState($target, id);
-    console.log(supports_history_api);
+        } else {
+            changeState(id);
             history.pushState(id, null, id);
             return event.preventDefault();
         }
