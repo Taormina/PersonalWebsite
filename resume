@@ -20,9 +20,9 @@
               <div class="container">
                 <a class="brand" href="/">Anthony Taormina</a>
               <ul class="nav">
-                <li id="about" class="nav-item"><a>About</a></li>
-                <li class="active" id="resume" class="nav-item"><a>Résumé</a></li>
-                <li id="contact" class="nav-item"><a>Contact Me</a></li>
+                <li id="about" class="nav-item">About</li>
+                <li id="resume" class="nav-item active">Résumé</li>
+                <li id="contact" class="nav-item">Contact Me</li>
               </ul>
 </div></div></div>	
         <div class="content" id="about-content">

@@ -7,8 +7,11 @@ html = f.read()
 f.close()
 
 for page in pages:
-	index = html.find(' id="' + page + '"')
-	temp = html[:index] + ' class="active"' + html[index:]
+	query = ' id="' + page + '" class="nav-item"'
+	index = html.find(query)
+
+	insert = query[:-1] + ' active"'
+	temp = html[:index] + insert + html[index+len(query):]
 
 	index = temp.find('" id="' + page + '-content"')
 	temp = temp[:index] + " displayed" + temp[index:]
