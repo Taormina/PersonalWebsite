@@ -149,6 +149,8 @@ PHP, MySQL, C++, Javascript, HTML, CSS, Assembly (LC-3), iOS
     <script src="js/bootstrap-tooltip.js"></script>
     <script src="js/jquery.placeholder.js"></script>
     <script src="http://vjs.zencdn.net/c/video.js"></script>
+<script src="js/jquery.history.js"></script>
+
     <script src="js/application.js"></script>        
           <script src="script.js"></script>
 
