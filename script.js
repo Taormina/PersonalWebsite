@@ -1,7 +1,6 @@
-var supports_history_api = !!(window.history && history.pushState);
+var supports_history_api = !!(window.history && History.pushState);
 
 function changeState($state) {
-    console.log($state);
     $(".active").removeClass("active");
     $(".content.displayed").removeClass("displayed");
     $("#" + $state).addClass("active");
@@ -11,8 +10,10 @@ function changeState($state) {
 $(document).ready(function () {
     if (supports_history_api) {
         window.addEventListener('popstate', function(e) {
-		console.log(e);
-            var state = (e.state != null) ? e.state : "about";
+	var hash = History.getState().hash.substring(1);
+	console.log(hash);
+            var state = (hash != "") ? hash : "about";
+
             changeState(state);      
         });
     }
@@ -23,7 +24,7 @@ $(document).ready(function () {
             window.location = id;
         } else {
             changeState(id);
-            history.pushState(id, null, id);
+            History.pushState(id, null, id);
             return event.preventDefault();
         }
     });
